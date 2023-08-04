@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "URL Checker",
+  "description": "An extension that allows user to stay alert from visiting malicious websites.",
+  "version": "2.0",
+  "permissions": [
+    "webRequest",
+    "tabs",
+    "notifications",
+    "alarms"
+  ],
+  "background": {
+    "service_worker": "content.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
